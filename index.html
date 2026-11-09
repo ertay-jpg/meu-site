@@ -3,7 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Minha Empresa</title>
+<title>Minha Empresa | Moçambique</title>
+
 <style>
 body {
   margin: 0;
@@ -17,10 +18,21 @@ header, footer {
   color: #d4af37;
   padding: 30px 15px;
 }
-h1, h2 { color: #d4af37; }
-main { padding: 30px 15px; }
-section { margin: 30px 0; }
-a {
+h1, h2 {
+  color: #d4af37;
+}
+main {
+  padding: 25px 15px;
+}
+.servico {
+  background: #222;
+  padding: 20px;
+  margin: 15px auto;
+  border: 1px solid #d4af37;
+  border-radius: 10px;
+  max-width: 450px;
+}
+.whatsapp {
   display: inline-block;
   background: #25D366;
   color: white;
@@ -31,6 +43,7 @@ a {
 }
 </style>
 </head>
+
 <body>
 
 <header>
@@ -39,18 +52,36 @@ a {
 </header>
 
 <main>
-<section>
-<h2>Sobre Nós</h2>
-<p>Estamos aqui para te ajudar.</p>
-</section>
 
-<section>
+<h2>Sobre Nós</h2>
+<p>Estamos a desenvolver um projecto de serviços digitais em Moçambique.</p>
+
+<h2>As Nossas Áreas</h2>
+
+<div class="servico">
+<h2>Informática</h2>
+<p>Criação de sites e apoio tecnológico.</p>
+</div>
+
+<div class="servico">
+<h2>Design Gráfico</h2>
+<p>Criação de cartazes e logótipos.</p>
+</div>
+
+<div class="servico">
+<h2>Serviços Digitais</h2>
+<p>Soluções e apoio para pequenos negócios.</p>
+</div>
+
 <h2>Contacta-nos</h2>
 <p>Fala connosco pelo WhatsApp.</p>
-<a href="https://wa.me/258845818610" target="_blank">
+
+<a class="whatsapp"
+href="https://wa.me/258845818610"
+target="_blank">
 Contactar pelo WhatsApp
 </a>
-</section>
+
 </main>
 
 <footer>
