@@ -2,48 +2,48 @@
 <html lang="pt">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Minha Empresa | Moçambique</title>
-
 <style>
 body {
   margin: 0;
+  font-family: Arial, sans-serif;
   background: #111;
   color: white;
-  font-family: Arial, sans-serif;
   text-align: center;
 }
-header, footer {
-  background: #000;
-  color: #d4af37;
-  padding: 30px 15px;
+header {
+  background: black;
+  padding: 55px 15px;
 }
 h1, h2 {
   color: #d4af37;
 }
-main {
-  padding: 25px 15px;
+section {
+  padding: 30px 15px;
 }
 .servico {
   background: #222;
-  padding: 20px;
   margin: 15px auto;
-  border: 1px solid #d4af37;
+  padding: 20px;
+  max-width: 400px;
   border-radius: 10px;
-  max-width: 450px;
 }
-.whatsapp {
+a {
   display: inline-block;
   background: #25D366;
   color: white;
   padding: 15px 22px;
   border-radius: 8px;
   text-decoration: none;
-  font-weight: bold;
+}
+footer {
+  background: black;
+  color: #d4af37;
+  padding: 25px;
 }
 </style>
 </head>
-
 <body>
 
 <header>
@@ -51,12 +51,8 @@ main {
 <p>Qualidade e confiança ao teu serviço.</p>
 </header>
 
-<main>
-
-<h2>Sobre Nós</h2>
-<p>Estamos a desenvolver um projecto de serviços digitais em Moçambique.</p>
-
-<h2>As Nossas Áreas</h2>
+<section>
+<h2>Os Nossos Serviços</h2>
 
 <div class="servico">
 <h2>Informática</h2>
@@ -75,14 +71,10 @@ main {
 
 <h2>Contacta-nos</h2>
 <p>Fala connosco pelo WhatsApp.</p>
-
-<a class="whatsapp"
-href="https://wa.me/258845818610"
-target="_blank">
+<a href="https://wa.me/258845818610" target="_blank">
 Contactar pelo WhatsApp
 </a>
-
-</main>
+</section>
 
 <footer>
 <p>© 2026 — Minha Empresa | Moçambique</p>
